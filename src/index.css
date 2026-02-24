@@ -1287,9 +1287,14 @@ ul {
     /* Allow wrapping on smaller screens */
   }
 
+  .hero {
+    padding: 20px 0 40px;
+    min-height: auto;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 20px;
     text-align: center;
   }
 
@@ -1327,9 +1332,9 @@ ul {
   }
 
   .hero-image-side {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .hero-image-frame {
